@@ -48,7 +48,10 @@
 </template>
 
 <script>
+import FilterBehavior from "./FilterBehavior";
+
 export default {
+    mixins: [FilterBehavior],
     props: ['card'],
 }
 </script>
